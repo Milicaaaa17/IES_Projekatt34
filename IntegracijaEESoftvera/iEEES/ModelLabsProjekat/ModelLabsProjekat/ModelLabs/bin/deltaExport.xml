@@ -1,0 +1,372 @@
+﻿<delta id="0">
+  <operations>
+    <operation type="insert">
+      <ResourceDescriptions count="31">
+        <ResourceDescription>
+          <id gid="0x00000001ffffffff" type="PROCESS" />
+          <Properties>
+            <Property id="IDOBJ_MRID" value="PROCES1" />
+            <Property id="IDOBJ_NAME" value="Process" />
+            <Property id="IDOBJ_ALIASNAME" value="Process1" />
+            <Property id="PROCESS_CLASSIFICATIONTYPE" value="classificationType" />
+            <Property id="PROCESS_PROCESSTYPE" value="processType" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000002ffffffff" type="MARKETDOCUMENT" />
+          <Properties>
+            <Property id="IDOBJ_MRID" value="MARKETDOCUMENT1" />
+            <Property id="IDOBJ_NAME" value="MarketDocument1" />
+            <Property id="IDOBJ_ALIASNAME" value="MARKETDOCUMENT1" />
+            <Property id="DOCUMENT_CREATED_DATETIME" value="637793568000000000" />
+            <Property id="DOCUMENT_LAST_MODIFIED_DATETIME" value="637955136000000000" />
+            <Property id="DOCUMENT_REVISION_NUMBER" value="revisionNumber" />
+            <Property id="DOCUMENT_SUBJECT" value="subject" />
+            <Property id="DOCUMENT_TITLE" value="title" />
+            <Property id="DOCUMENT_TYPE" value="type" />
+            <Property id="MARKETDOCUMENT_PROCESS" value="0x00000001ffffffff" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000002fffffffe" type="MARKETDOCUMENT" />
+          <Properties>
+            <Property id="IDOBJ_MRID" value="MARKETDOCUMENT2" />
+            <Property id="IDOBJ_NAME" value="MarketDocument2" />
+            <Property id="IDOBJ_ALIASNAME" value="MARKETDOCUMENT2" />
+            <Property id="DOCUMENT_CREATED_DATETIME" value="637870464000000000" />
+            <Property id="DOCUMENT_LAST_MODIFIED_DATETIME" value="637927488000000000" />
+            <Property id="DOCUMENT_REVISION_NUMBER" value="revisionNumber" />
+            <Property id="DOCUMENT_SUBJECT" value="subject" />
+            <Property id="DOCUMENT_TITLE" value="title" />
+            <Property id="DOCUMENT_TYPE" value="type" />
+            <Property id="MARKETDOCUMENT_PROCESS" value="0x00000001ffffffff" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000004ffffffff" type="PERIOD" />
+          <Properties>
+            <Property id="IDOBJ_MRID" value="PERIOD1" />
+            <Property id="IDOBJ_NAME" value="PERIOD1" />
+            <Property id="IDOBJ_ALIASNAME" value="PERIOD1" />
+            <Property id="PERIOD_MARKETDOCUMENT" value="0x00000002ffffffff" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000004fffffffe" type="PERIOD" />
+          <Properties>
+            <Property id="IDOBJ_MRID" value="PERIOD2" />
+            <Property id="IDOBJ_NAME" value="PERIOD2" />
+            <Property id="IDOBJ_ALIASNAME" value="PERIOD2" />
+            <Property id="PERIOD_MARKETDOCUMENT" value="0x00000002ffffffff" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000004fffffffd" type="PERIOD" />
+          <Properties>
+            <Property id="IDOBJ_MRID" value="PERIOD3" />
+            <Property id="IDOBJ_NAME" value="PERIOD3" />
+            <Property id="IDOBJ_ALIASNAME" value="PERIOD3" />
+            <Property id="PERIOD_MARKETDOCUMENT" value="0x00000002fffffffe" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000004fffffffc" type="PERIOD" />
+          <Properties>
+            <Property id="IDOBJ_MRID" value="PERIOD4" />
+            <Property id="IDOBJ_NAME" value="PERIOD4" />
+            <Property id="IDOBJ_ALIASNAME" value="PERIOD4" />
+            <Property id="PERIOD_MARKETDOCUMENT" value="0x00000002fffffffe" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000005ffffffff" type="BIDTIMESERIES" />
+          <Properties>
+            <Property id="IDOBJ_MRID" value="BIDTIMESERIES1" />
+            <Property id="IDOBJ_NAME" value="BIDTIMESERIES1" />
+            <Property id="IDOBJ_ALIASNAME" value="BidTimeSeries1" />
+            <Property id="TIMESERIES_OBJECTAGGREGATION" value="objectAggregation" />
+            <Property id="TIMESERIES_PRODUCT" value="product" />
+            <Property id="TIMESERIES_VERSION" value="version" />
+            <Property id="TIMESERIES_MARKETDOCUMENT" value="0x00000002ffffffff" />
+            <Property id="TIMESERIES_PERIOD" value="0x00000004ffffffff" />
+            <Property id="BIDTIMESERIES_DIRECTION" value="Direction" />
+            <Property id="BIDTIMESERIES_DIVISIBLE" value="0" />
+            <Property id="BIDTIMESERIES_LINKED_BIDID" value="linkedBidsIdentification" />
+            <Property id="BIDTIMESERIES_MIN_AQ" value="1" />
+            <Property id="BIDTIMESERIES_STEP_INCQ" value="0.3" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000005fffffffe" type="BIDTIMESERIES" />
+          <Properties>
+            <Property id="IDOBJ_MRID" value="BIDTIMESERIES2" />
+            <Property id="IDOBJ_NAME" value="BIDTIMESERIES2" />
+            <Property id="IDOBJ_ALIASNAME" value="BidTimeSeries2" />
+            <Property id="TIMESERIES_OBJECTAGGREGATION" value="objectAggregation" />
+            <Property id="TIMESERIES_PRODUCT" value="product" />
+            <Property id="TIMESERIES_VERSION" value="version" />
+            <Property id="TIMESERIES_MARKETDOCUMENT" value="0x00000002ffffffff" />
+            <Property id="TIMESERIES_PERIOD" value="0x00000004fffffffe" />
+            <Property id="BIDTIMESERIES_DIRECTION" value="Direction" />
+            <Property id="BIDTIMESERIES_DIVISIBLE" value="0" />
+            <Property id="BIDTIMESERIES_LINKED_BIDID" value="linkedBidsIdentification" />
+            <Property id="BIDTIMESERIES_MIN_AQ" value="1" />
+            <Property id="BIDTIMESERIES_STEP_INCQ" value="0.4" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000005fffffffd" type="BIDTIMESERIES" />
+          <Properties>
+            <Property id="IDOBJ_MRID" value="BIDTIMESERIES3" />
+            <Property id="IDOBJ_NAME" value="BIDTIMESERIES3" />
+            <Property id="IDOBJ_ALIASNAME" value="BidTimeSeries3" />
+            <Property id="TIMESERIES_OBJECTAGGREGATION" value="objectAggregation" />
+            <Property id="TIMESERIES_PRODUCT" value="product" />
+            <Property id="TIMESERIES_VERSION" value="version" />
+            <Property id="TIMESERIES_MARKETDOCUMENT" value="0x00000002ffffffff" />
+            <Property id="TIMESERIES_PERIOD" value="0x00000004fffffffd" />
+            <Property id="BIDTIMESERIES_DIRECTION" value="Direction" />
+            <Property id="BIDTIMESERIES_DIVISIBLE" value="0" />
+            <Property id="BIDTIMESERIES_LINKED_BIDID" value="linkedBidsIdentification" />
+            <Property id="BIDTIMESERIES_MIN_AQ" value="1" />
+            <Property id="BIDTIMESERIES_STEP_INCQ" value="0.3" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000005fffffffc" type="BIDTIMESERIES" />
+          <Properties>
+            <Property id="IDOBJ_MRID" value="BIDTIMESERIES4" />
+            <Property id="IDOBJ_NAME" value="BIDTIMESERIES4" />
+            <Property id="IDOBJ_ALIASNAME" value="BIDTIMESERIES4" />
+            <Property id="TIMESERIES_OBJECTAGGREGATION" value="objectAggregation" />
+            <Property id="TIMESERIES_PRODUCT" value="product" />
+            <Property id="TIMESERIES_VERSION" value="version" />
+            <Property id="TIMESERIES_MARKETDOCUMENT" value="0x00000002ffffffff" />
+            <Property id="TIMESERIES_PERIOD" value="0x00000004fffffffc" />
+            <Property id="BIDTIMESERIES_DIRECTION" value="Direction" />
+            <Property id="BIDTIMESERIES_DIVISIBLE" value="0" />
+            <Property id="BIDTIMESERIES_LINKED_BIDID" value="linkedBidsIdentification" />
+            <Property id="BIDTIMESERIES_MIN_AQ" value="1" />
+            <Property id="BIDTIMESERIES_STEP_INCQ" value="0.5" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000005fffffffb" type="BIDTIMESERIES" />
+          <Properties>
+            <Property id="IDOBJ_MRID" value="BIDTIMESERIES5" />
+            <Property id="IDOBJ_NAME" value="BIDTIMESERIES5" />
+            <Property id="IDOBJ_ALIASNAME" value="BidTimeSeries5" />
+            <Property id="TIMESERIES_OBJECTAGGREGATION" value="objectAggregation" />
+            <Property id="TIMESERIES_PRODUCT" value="product" />
+            <Property id="TIMESERIES_VERSION" value="version" />
+            <Property id="TIMESERIES_MARKETDOCUMENT" value="0x00000002fffffffe" />
+            <Property id="TIMESERIES_PERIOD" value="0x00000004ffffffff" />
+            <Property id="BIDTIMESERIES_DIRECTION" value="Direction" />
+            <Property id="BIDTIMESERIES_DIVISIBLE" value="0" />
+            <Property id="BIDTIMESERIES_LINKED_BIDID" value="linkedBidsIdentification" />
+            <Property id="BIDTIMESERIES_MIN_AQ" value="1" />
+            <Property id="BIDTIMESERIES_STEP_INCQ" value="0.2" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000005fffffffa" type="BIDTIMESERIES" />
+          <Properties>
+            <Property id="IDOBJ_MRID" value="BIDTIMESERIES6" />
+            <Property id="IDOBJ_NAME" value="BIDTIMESERIES6" />
+            <Property id="IDOBJ_ALIASNAME" value="BidTimeSeries6" />
+            <Property id="TIMESERIES_OBJECTAGGREGATION" value="objectAggregation" />
+            <Property id="TIMESERIES_PRODUCT" value="product" />
+            <Property id="TIMESERIES_VERSION" value="version" />
+            <Property id="TIMESERIES_MARKETDOCUMENT" value="0x00000002fffffffe" />
+            <Property id="TIMESERIES_PERIOD" value="0x00000004fffffffe" />
+            <Property id="BIDTIMESERIES_DIRECTION" value="Direction" />
+            <Property id="BIDTIMESERIES_DIVISIBLE" value="0" />
+            <Property id="BIDTIMESERIES_LINKED_BIDID" value="linkedBidsIdentification" />
+            <Property id="BIDTIMESERIES_MIN_AQ" value="1" />
+            <Property id="BIDTIMESERIES_STEP_INCQ" value="0.1" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000005fffffff9" type="BIDTIMESERIES" />
+          <Properties>
+            <Property id="IDOBJ_MRID" value="BIDTIMESERIES7" />
+            <Property id="IDOBJ_NAME" value="BIDTIMESERIES7" />
+            <Property id="IDOBJ_ALIASNAME" value="BidTimeSeries7" />
+            <Property id="TIMESERIES_OBJECTAGGREGATION" value="objectAggregation" />
+            <Property id="TIMESERIES_PRODUCT" value="product" />
+            <Property id="TIMESERIES_VERSION" value="version" />
+            <Property id="TIMESERIES_MARKETDOCUMENT" value="0x00000002fffffffe" />
+            <Property id="TIMESERIES_PERIOD" value="0x00000004fffffffd" />
+            <Property id="BIDTIMESERIES_DIRECTION" value="Direction" />
+            <Property id="BIDTIMESERIES_DIVISIBLE" value="0" />
+            <Property id="BIDTIMESERIES_LINKED_BIDID" value="linkedBidsIdentification" />
+            <Property id="BIDTIMESERIES_MIN_AQ" value="1" />
+            <Property id="BIDTIMESERIES_STEP_INCQ" value="0.6" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000005fffffff8" type="BIDTIMESERIES" />
+          <Properties>
+            <Property id="IDOBJ_MRID" value="BIDTIMESERIES8" />
+            <Property id="IDOBJ_NAME" value="BIDTIMESERIES8" />
+            <Property id="IDOBJ_ALIASNAME" value="BIDTIMESERIES8" />
+            <Property id="TIMESERIES_OBJECTAGGREGATION" value="objectAggregation" />
+            <Property id="TIMESERIES_PRODUCT" value="product" />
+            <Property id="TIMESERIES_VERSION" value="version" />
+            <Property id="TIMESERIES_MARKETDOCUMENT" value="0x00000002fffffffe" />
+            <Property id="TIMESERIES_PERIOD" value="0x00000004fffffffc" />
+            <Property id="BIDTIMESERIES_DIRECTION" value="Direction" />
+            <Property id="BIDTIMESERIES_DIVISIBLE" value="0" />
+            <Property id="BIDTIMESERIES_LINKED_BIDID" value="linkedBidsIdentification" />
+            <Property id="BIDTIMESERIES_MIN_AQ" value="1" />
+            <Property id="BIDTIMESERIES_STEP_INCQ" value="0.1" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000006ffffffff" type="MEASUREMENTPOINT" />
+          <Properties>
+            <Property id="IDOBJ_MRID" value="MEASUREMENTPOINT1" />
+            <Property id="IDOBJ_NAME" value="MEASUREMENTPOINT1" />
+            <Property id="IDOBJ_ALIASNAME" value="MEASUREMENTPOINT1" />
+            <Property id="MEASUREMENTPOINT_TIMESERIES" value="0x00000005ffffffff" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000006fffffffe" type="MEASUREMENTPOINT" />
+          <Properties>
+            <Property id="IDOBJ_MRID" value="MEASUREMENTPOINT10" />
+            <Property id="IDOBJ_NAME" value="MEASUREMENTPOINT10" />
+            <Property id="IDOBJ_ALIASNAME" value="MEASUREMENTPOINT10" />
+            <Property id="MEASUREMENTPOINT_TIMESERIES" value="0x00000005fffffffb" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000006fffffffd" type="MEASUREMENTPOINT" />
+          <Properties>
+            <Property id="IDOBJ_MRID" value="MEASUREMENTPOINT11" />
+            <Property id="IDOBJ_NAME" value="MEASUREMENTPOINT11" />
+            <Property id="IDOBJ_ALIASNAME" value="MEASUREMENTPOINT11" />
+            <Property id="MEASUREMENTPOINT_TIMESERIES" value="0x00000005fffffffa" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000006fffffffc" type="MEASUREMENTPOINT" />
+          <Properties>
+            <Property id="IDOBJ_MRID" value="MEASUREMENTPOINT12" />
+            <Property id="IDOBJ_NAME" value="MEASUREMENTPOINT12" />
+            <Property id="IDOBJ_ALIASNAME" value="MEASUREMENTPOINT12" />
+            <Property id="MEASUREMENTPOINT_TIMESERIES" value="0x00000005fffffffa" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000006fffffffb" type="MEASUREMENTPOINT" />
+          <Properties>
+            <Property id="IDOBJ_MRID" value="MEASUREMENTPOINT13" />
+            <Property id="IDOBJ_NAME" value="MEASUREMENTPOINT13" />
+            <Property id="IDOBJ_ALIASNAME" value="MEASUREMENTPOINT13" />
+            <Property id="MEASUREMENTPOINT_TIMESERIES" value="0x00000005fffffff9" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000006fffffffa" type="MEASUREMENTPOINT" />
+          <Properties>
+            <Property id="IDOBJ_MRID" value="MEASUREMENTPOINT14" />
+            <Property id="IDOBJ_NAME" value="MEASUREMENTPOINT14" />
+            <Property id="IDOBJ_ALIASNAME" value="MEASUREMENTPOINT14" />
+            <Property id="MEASUREMENTPOINT_TIMESERIES" value="0x00000005fffffff9" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000006fffffff9" type="MEASUREMENTPOINT" />
+          <Properties>
+            <Property id="IDOBJ_MRID" value="MEASUREMENTPOINT15" />
+            <Property id="IDOBJ_NAME" value="MEASUREMENTPOINT15" />
+            <Property id="IDOBJ_ALIASNAME" value="MEASUREMENTPOINT15" />
+            <Property id="MEASUREMENTPOINT_TIMESERIES" value="0x00000005fffffff8" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000006fffffff8" type="MEASUREMENTPOINT" />
+          <Properties>
+            <Property id="IDOBJ_MRID" value="MEASUREMENTPOINT16" />
+            <Property id="IDOBJ_NAME" value="MEASUREMENTPOINT16" />
+            <Property id="IDOBJ_ALIASNAME" value="MEASUREMENTPOINT16" />
+            <Property id="MEASUREMENTPOINT_TIMESERIES" value="0x00000005fffffff8" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000006fffffff7" type="MEASUREMENTPOINT" />
+          <Properties>
+            <Property id="IDOBJ_MRID" value="MEASUREMENTPOINT2" />
+            <Property id="IDOBJ_NAME" value="MEASUREMENTPOINT2" />
+            <Property id="IDOBJ_ALIASNAME" value="MEASUREMENTPOINT2" />
+            <Property id="MEASUREMENTPOINT_TIMESERIES" value="0x00000005ffffffff" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000006fffffff6" type="MEASUREMENTPOINT" />
+          <Properties>
+            <Property id="IDOBJ_MRID" value="MEASUREMENTPOINT3" />
+            <Property id="IDOBJ_NAME" value="MEASUREMENTPOINT3" />
+            <Property id="IDOBJ_ALIASNAME" value="MEASUREMENTPOINT3" />
+            <Property id="MEASUREMENTPOINT_TIMESERIES" value="0x00000005fffffffe" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000006fffffff5" type="MEASUREMENTPOINT" />
+          <Properties>
+            <Property id="IDOBJ_MRID" value="MEASUREMENTPOINT4" />
+            <Property id="IDOBJ_NAME" value="MEASUREMENTPOINT4" />
+            <Property id="IDOBJ_ALIASNAME" value="MEASUREMENTPOINT4" />
+            <Property id="MEASUREMENTPOINT_TIMESERIES" value="0x00000005fffffffe" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000006fffffff4" type="MEASUREMENTPOINT" />
+          <Properties>
+            <Property id="IDOBJ_MRID" value="MEASUREMENTPOINT5" />
+            <Property id="IDOBJ_NAME" value="MEASUREMENTPOINT5" />
+            <Property id="IDOBJ_ALIASNAME" value="MEASUREMENTPOINT5" />
+            <Property id="MEASUREMENTPOINT_TIMESERIES" value="0x00000005fffffffd" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000006fffffff3" type="MEASUREMENTPOINT" />
+          <Properties>
+            <Property id="IDOBJ_MRID" value="MEASUREMENTPOINT6" />
+            <Property id="IDOBJ_NAME" value="MEASUREMENTPOINT6" />
+            <Property id="IDOBJ_ALIASNAME" value="MEASUREMENTPOINT6" />
+            <Property id="MEASUREMENTPOINT_TIMESERIES" value="0x00000005fffffffd" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000006fffffff2" type="MEASUREMENTPOINT" />
+          <Properties>
+            <Property id="IDOBJ_MRID" value="MEASUREMENTPOINT7" />
+            <Property id="IDOBJ_NAME" value="MEASUREMENTPOINT7" />
+            <Property id="IDOBJ_ALIASNAME" value="MEASUREMENTPOINT7" />
+            <Property id="MEASUREMENTPOINT_TIMESERIES" value="0x00000005fffffffc" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000006fffffff1" type="MEASUREMENTPOINT" />
+          <Properties>
+            <Property id="IDOBJ_MRID" value="MEASUREMENTPOINT8" />
+            <Property id="IDOBJ_NAME" value="MEASUREMENTPOINT8" />
+            <Property id="IDOBJ_ALIASNAME" value="MEASUREMENTPOINT8" />
+            <Property id="MEASUREMENTPOINT_TIMESERIES" value="0x00000005fffffffc" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000006fffffff0" type="MEASUREMENTPOINT" />
+          <Properties>
+            <Property id="IDOBJ_MRID" value="MEASUREMENTPOINT9" />
+            <Property id="IDOBJ_NAME" value="MEASUREMENTPOINT9" />
+            <Property id="IDOBJ_ALIASNAME" value="MEASUREMENTPOINT9" />
+            <Property id="MEASUREMENTPOINT_TIMESERIES" value="0x00000005fffffffb" />
+          </Properties>
+        </ResourceDescription>
+      </ResourceDescriptions>
+    </operation>
+  </operations>
+</delta>

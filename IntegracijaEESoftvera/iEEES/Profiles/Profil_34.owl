@@ -1,0 +1,485 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:msg="http://langdale.com.au/2005/Message#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns="http://iec.ch/TC57/2007/profile#"
+    xmlns:uml="http://langdale.com.au/2005/UML#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xml:base="http://iec.ch/TC57/2007/profile" > 
+  <rdf:Description rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f58">
+    <rdfs:label>version</rdfs:label>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f33">
+    <owl:allValuesFrom rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f34"/>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#MarketDocument.Process"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f3b">
+    <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</owl:minCardinality>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#TimeSeries.Period"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f1d">
+    <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</owl:minCardinality>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#MeasurementPoint.TimeSeries"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f65">
+    <owl:allValuesFrom rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f66"/>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#Document.createdDateTime"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f94">
+    <rdfs:label>name</rdfs:label>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f78">
+    <rdfs:label>subject</rdfs:label>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f43">
+    <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#byreference"/>
+    <rdfs:label>MarketDocument</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#MarketDocument"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f4f">
+    <rdfs:label>divisible</rdfs:label>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f51">
+    <owl:allValuesFrom rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f52"/>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#BidTimeSeries.direction"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f8d">
+    <owl:allValuesFrom rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f8e"/>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#Point.position"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f2c">
+    <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</owl:minCardinality>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#Point.Period"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f27">
+    <owl:allValuesFrom rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f28"/>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#Period.MarketDocument"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f90">
+    <owl:allValuesFrom rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f91"/>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#Point.bidQuantity"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Document">
+    <rdfs:subClassOf rdf:nodeID="Xd2X17fab833Xa3X186ea72ba9cXa3X-7ff8"/>
+    <rdfs:subClassOf rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f71"/>
+    <rdfs:subClassOf rdf:resource="#IdentifiedObject"/>
+    <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#Document"/>
+    <rdfs:subClassOf rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f65"/>
+    <rdfs:subClassOf rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f7a"/>
+    <rdfs:subClassOf rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f77"/>
+    <rdfs:subClassOf rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f74"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f37">
+    <rdfs:label>Period</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#Period"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f54">
+    <owl:allValuesFrom rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f55"/>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#BidTimeSeries.blockBid"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X17fab833Xa3X186ea72ba9cXa3X-7ff5">
+    <owl:allValuesFrom rdf:nodeID="Xd2X17fab833Xa3X186ea72ba9cXa3X-7ff6"/>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#Period.Point"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f71">
+    <owl:allValuesFrom rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f72"/>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#Document.type"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f85">
+    <rdfs:label>processType</rdfs:label>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#MeasurementPoint">
+    <rdfs:subClassOf rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f1d"/>
+    <rdfs:subClassOf rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f1e"/>
+    <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#concrete"/>
+    <rdfs:subClassOf rdf:resource="#IdentifiedObject"/>
+    <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#MeasurementPoint"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f75">
+    <rdfs:label>title</rdfs:label>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f1e">
+    <owl:allValuesFrom rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f1f"/>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#MeasurementPoint.TimeSeries"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f46">
+    <rdfs:label>stepIncrementQuantity</rdfs:label>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f3a">
+    <rdfs:label>MarketDocument</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#MarketDocument"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f99">
+    <owl:allValuesFrom rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f9a"/>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#IdentifiedObject.aliasName"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#TimeSeries">
+    <rdfs:subClassOf rdf:resource="#IdentifiedObject"/>
+    <rdfs:subClassOf rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f3f"/>
+    <rdfs:subClassOf rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f3c"/>
+    <rdfs:subClassOf rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f5d"/>
+    <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#TimeSeries"/>
+    <rdfs:subClassOf rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f57"/>
+    <rdfs:subClassOf rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f5a"/>
+    <rdfs:subClassOf rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f3b"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f42"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f42">
+    <owl:allValuesFrom rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f43"/>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#TimeSeries.MarketDocument"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X17fab833Xa3X186ea72ba9cXa3X-7ff9">
+    <rdfs:label>lastModifiedDateTime</rdfs:label>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f2e">
+    <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#byreference"/>
+    <rdfs:label>Period</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#Period"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f4e">
+    <owl:allValuesFrom rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f4f"/>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#BidTimeSeries.divisible"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f5e">
+    <rdfs:label>objectAggregation</rdfs:label>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f5d">
+    <owl:allValuesFrom rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f5e"/>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#TimeSeries.objectAggregation"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://langdale.com.au/2007/Buildlet#legacy-rdfs">
+    <rdf:type rdf:resource="http://langdale.com.au/2005/Message#Flag"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f91">
+    <rdfs:label>bidQuantity</rdfs:label>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f2d">
+    <owl:allValuesFrom rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f2e"/>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#Point.Period"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f3f">
+    <owl:allValuesFrom rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f40"/>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#TimeSeries.MeasurementPoint"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f55">
+    <rdfs:label>blockBid</rdfs:label>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f36">
+    <owl:allValuesFrom rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f37"/>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#MarketDocument.Period"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f88">
+    <rdfs:label>classificationType</rdfs:label>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X17fab833Xa3X186ea72ba9cXa3X-7ff6">
+    <rdfs:label>Point</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#Point"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f84">
+    <owl:allValuesFrom rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f85"/>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#Process.processType"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f74">
+    <owl:allValuesFrom rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f75"/>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#Document.title"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X17fab833Xa3X186ea72ba9cXa3X-7ff8">
+    <owl:allValuesFrom rdf:nodeID="Xd2X17fab833Xa3X186ea72ba9cXa3X-7ff9"/>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#Document.lastModifiedDateTime"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f96">
+    <owl:allValuesFrom rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f97"/>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#IdentifiedObject.mRID"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f8b">
+    <rdfs:label>quantity</rdfs:label>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f31">
+    <rdfs:label>TimeSeries</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#TimeSeries"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f3d">
+    <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#byreference"/>
+    <rdfs:label>Period</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#Period"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="">
+    <owl:imports rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15"/>
+    <rdfs:label>Profile</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f7a">
+    <owl:allValuesFrom rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f7b"/>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#Document.revisionNumber"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f39">
+    <owl:allValuesFrom rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f3a"/>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#Process.MarketDocument"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f45">
+    <owl:allValuesFrom rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f46"/>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#BidTimeSeries.stepIncrementQuantity"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f25">
+    <rdfs:label>TimeSeries</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#TimeSeries"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f40">
+    <rdfs:label>MeasurementPoint</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#MeasurementPoint"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f87">
+    <owl:allValuesFrom rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f88"/>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#Process.classificationType"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f5a">
+    <owl:allValuesFrom rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f5b"/>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#TimeSeries.product"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f66">
+    <rdfs:label>createdDateTime</rdfs:label>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f77">
+    <owl:allValuesFrom rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f78"/>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#Document.subject"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f49">
+    <rdfs:label>minimumActivationQuantity</rdfs:label>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f1f">
+    <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#byreference"/>
+    <rdfs:label>TimeSeries</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#TimeSeries"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Period">
+    <rdfs:subClassOf rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f27"/>
+    <rdfs:subClassOf rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f24"/>
+    <rdfs:subClassOf rdf:nodeID="Xd2X17fab833Xa3X186ea72ba9cXa3X-7ff5"/>
+    <rdfs:subClassOf rdf:resource="#IdentifiedObject"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#concrete"/>
+    <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#Period"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f30">
+    <owl:allValuesFrom rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f31"/>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#MarketDocument.TimeSeries"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f8a">
+    <owl:allValuesFrom rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f8b"/>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#Point.quantity"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f97">
+    <rdfs:label>mRID</rdfs:label>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f3c">
+    <owl:allValuesFrom rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f3d"/>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#TimeSeries.Period"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#IdentifiedObject">
+    <rdfs:subClassOf rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f96"/>
+    <rdfs:subClassOf rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f93"/>
+    <rdfs:subClassOf rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f99"/>
+    <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#IdentifiedObject"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f52">
+    <rdfs:label>direction</rdfs:label>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f4c">
+    <rdfs:label>linkedBidsIdentification</rdfs:label>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f7b">
+    <rdfs:label>revisionNumber</rdfs:label>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#BidTimeSeries">
+    <rdfs:subClassOf rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f4b"/>
+    <rdfs:subClassOf rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f48"/>
+    <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#concrete"/>
+    <rdfs:subClassOf rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f4e"/>
+    <rdfs:subClassOf rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f45"/>
+    <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#BidTimeSeries"/>
+    <rdfs:subClassOf rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f51"/>
+    <rdfs:subClassOf rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f54"/>
+    <rdfs:subClassOf rdf:resource="#TimeSeries"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f9a">
+    <rdfs:label>aliasName</rdfs:label>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f34">
+    <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#byreference"/>
+    <rdfs:label>Process</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#Process"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f57">
+    <owl:allValuesFrom rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f58"/>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#TimeSeries.version"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f24">
+    <owl:allValuesFrom rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f25"/>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#Period.TimeSeries"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f72">
+    <rdfs:label>type</rdfs:label>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f5b">
+    <rdfs:label>product</rdfs:label>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f93">
+    <owl:allValuesFrom rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f94"/>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#IdentifiedObject.name"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f8e">
+    <rdfs:label>position</rdfs:label>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f28">
+    <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#byreference"/>
+    <rdfs:label>MarketDocument</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#MarketDocument"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://langdale.com.au/2007/Buildlet#html">
+    <rdf:type rdf:resource="http://langdale.com.au/2005/Message#Flag"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#MarketDocument">
+    <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#concrete"/>
+    <rdfs:subClassOf rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f33"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="#Document"/>
+    <rdfs:subClassOf rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f36"/>
+    <rdfs:subClassOf rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f30"/>
+    <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#MarketDocument"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Process">
+    <rdfs:subClassOf rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f39"/>
+    <rdfs:subClassOf rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f84"/>
+    <rdfs:subClassOf rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f87"/>
+    <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#concrete"/>
+    <rdfs:subClassOf rdf:resource="#IdentifiedObject"/>
+    <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#Process"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Point">
+    <rdfs:subClassOf rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f2c"/>
+    <rdfs:subClassOf rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f2d"/>
+    <rdfs:subClassOf rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f90"/>
+    <uml:hasStereotype rdf:resource="http://langdale.com.au/2005/UML#concrete"/>
+    <rdfs:subClassOf rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f8d"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="#IdentifiedObject"/>
+    <rdfs:subClassOf rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f8a"/>
+    <rdfs:subClassOf rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#Point"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f4b">
+    <owl:allValuesFrom rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f4c"/>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#BidTimeSeries.linkedBidsIdentification"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f48">
+    <owl:allValuesFrom rdf:nodeID="Xd2X86222bbXa3X186da1dd3dfXa3X-7f49"/>
+    <owl:onProperty rdf:resource="http://iec.ch/TC57/2010/CIM-schema-cim15#BidTimeSeries.minimumActivationQuantity"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+</rdf:RDF>
